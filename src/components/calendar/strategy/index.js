@@ -1,2 +1,3 @@
-export * as Base from './baseCalendarSelectionStrategy';
-export * as Range from './rangedCalendarSelectionStrategy';
+import * as Base from './baseCalendarSelectionStrategy';
+import * as Range from './rangedCalendarSelectionStrategy';
+export {Base, Range};
